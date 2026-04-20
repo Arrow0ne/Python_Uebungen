@@ -1,0 +1,27 @@
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Audio Dateien
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Persönliches
+.env
+secrets.py
