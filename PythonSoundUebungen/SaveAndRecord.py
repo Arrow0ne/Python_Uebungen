@@ -10,7 +10,7 @@ sd.default.channels = 1
 
 print("Do you want to record an Audio?")
 inp1 = input("Yes or No: ")
-if(inp1 == "Yes"):
+if(inp1.lower() == "yes"):
     print("Recording for 5 seconds...")
     myrecording = sd.rec(int(duration * fs))
     sd.wait()
@@ -21,10 +21,8 @@ else:
 
 print("Do you want to save your Audio?")
 inp2 = input("Yes or No: ")
-if(inp2 == "Yes"):
+if(inp2.lower() == "yes"):
     print("Name your Audio: ")
     inp3 = input()
     soundname = inp3
     write(soundname + ".mp3", fs, myrecording)
-else:
-    exit()
