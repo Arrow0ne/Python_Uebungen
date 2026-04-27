@@ -6,7 +6,5 @@ von Basics bis Audio Processing.
 ## Themen
 - Python Grundlagen
 - Klassen & Objekte
-- Audio Aufnahme & Verarbeitung
-- NumPy & librosa
 
 🚧 In Arbeit
