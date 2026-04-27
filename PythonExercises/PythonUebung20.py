@@ -10,5 +10,5 @@ This is essential for understanding how to populate 2D arrays or generate spread
 
 for i in range(1, 11):
     for j in range(1, 11):
-        print(i * j, end = " ")
+        print(i * j, end = "\t")
     print("\n")

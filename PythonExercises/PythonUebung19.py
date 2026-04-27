@@ -1,4 +1,14 @@
-#Exercise 19. Multi-Tiered Income Tax Calculation
+'''
+Exercise 19. Multi-Tiered Income Tax Calculation
+
+Practice Problem: Calculate income tax for a given income based on these rules:
+
+First $10,000: 0% tax
+Next $10,000: 10% tax
+Remaining income: 20% tax
+Exercise Purpose: This exercise introduces “Tax Brackets” logic, a classic example of complex conditional branching. 
+It shows how to calculate values cumulatively instead of applying a single percentage to the entire amount.
+'''
 
 def taxCalculator(income):
     tax_payable = 0

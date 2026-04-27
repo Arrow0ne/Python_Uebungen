@@ -1,3 +1,10 @@
+'''
+Exercise 17. Merging Lists with Parity Filtering
+
+Practice Problem: Create a new list from two given lists such that the new 
+list contains odd numbers from the first list and even numbers from the second list.
+'''
+
 def mergeList(list1, list2):
     result_list = []
     
